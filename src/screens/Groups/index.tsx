@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const Groups: React.FC = () => {
+export const Groups: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text>Groups</Text>
@@ -9,7 +9,7 @@ const Groups: React.FC = () => {
   );
 };
 
-export default Groups;
+// export default Groups;
 
 const styles = StyleSheet.create({
   container: {
